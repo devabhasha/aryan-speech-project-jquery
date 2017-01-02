@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Aryan Speech Project</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/application.css">
+  <script type="text/javascript" src="bower_components/requirejs/require.js"></script>
+</head>
+<body style="margin-bottom: 50px">
+<div class="container">
+  <div class="row roots-component">
+    <div class="col-lg-12">
+      <div class="page-header">
+        <h1 style="display: inline-block">The Aryan Speech Project</h1>
+<ul class="nav nav-pills pull-right" style="display: inline-block;margin-top: 14px">
+<li role="presentation" class="active"><a href="#">Home</a></li>
+<li role="presentation"><a href="#">About</a></li>
+<li role="presentation"><a href="#">Contact</a></li>
+</ul>
+</div>
+<p class="lead">Click on sounds to explore how roots and words are formed.</p>
+<div class="roots">
+  <!-- Sound properties guide -->
+  <!-- data-sound-properties='{"type": 0, "contact": 0, "strain": 0, "aspirate": 0, "nasal": 0, "quantity": 0}' -->
+  <!-- data-sound-properties='{"type": {"guttural": 0}, "contact": 0, "strain": 0, "aspirate": 0, "nasal": 0, "quantity": 0}' -->
+
+  <ul class="gutturals list-unstyled" data-sound-type="guttural">
+    <li class="root root-disabled col-xs-1" data-root-dvng="क्" data-root="k" data-sound-properties='{"strain": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">क्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root-dvng="ख्" data-root="kh" data-sound-properties='{"strain": 1, "aspirate": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ख्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root-dvng="ग्" data-root="g" data-sound-properties='{}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ग्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root-dvng="घ्" data-root="gh" data-sound-properties='{"aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">घ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="~N" data-root-alt="N^" data-sound-properties='{"nasal": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ङ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1" data-root="aH" data-sound-properties='{"contact": 2, "aspirate": 1, "strain": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">अः<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="h" data-sound-properties='{"contact": 2, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ह्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root-dvng="अ" data-root="a" data-sound-properties='{"contact": 3}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">अ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="A" data-root-alt="aa" data-sound-properties='{"contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">आ <span class="
+            distance"></span><span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="e" data-sound-properties='{"type": 5, "contact": 3}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ए <span class="
+            distance"></span><span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="ai" data-sound-properties='{"type": 5, "contact": 3, "quantity": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ऐ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+  </ul>
+  <ul class="palatals list-unstyled" data-sound-type="palatal">
+    <li class="root root-disabled col-xs-1" data-root="ch" data-root-alt="c" data-sound-properties='{"type": 1, "strain": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">च्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="Ch" data-root-alt="C" data-root-alt1="chh" data-sound-properties='{"type": 1, "strain": 1, "aspirate": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">छ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="j" data-sound-properties='{"type": 1}' data-toggle="popover" data-trigger="hover"
+      data-placement="auto">ज्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="jh" data-sound-properties='{"type": 1, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">झ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="~n" data-root-alt="JN" data-sound-properties='{"type": 1, "nasal": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ञ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="y" data-sound-properties='{"type": 1, "contact": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">य्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="sh" data-sound-properties='{"type": 1, "contact": 2, "strain": 1, "aspirate": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">श्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1" data-root="i" data-sound-properties='{"type": 1, "contact": 3}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">इ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="I" data-root-alt="ii" data-sound-properties='{"type": 1, "contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ई<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+  </ul>
+  <ul class="cerebrals list-unstyled" data-sound-type="cerebral">
+    <li class="root root-disabled col-xs-1" data-root="T" data-sound-properties='{"type": 2, "strain": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ट्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="Th" data-sound-properties='{"type": 2, "strain": 1, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ठ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="D" data-sound-properties='{"type": 2}' data-toggle="popover" data-trigger="hover"
+      data-placement="auto">ड्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="Dh" data-sound-properties='{"type": 2, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ढ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="N" data-sound-properties='{"type": 2, "nasal": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ण्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="r" data-sound-properties='{"type": 2, "contact": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">र्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="Sh" data-root-alt="Shh" data-root-alt1="S" data-sound-properties='{"type": 2, "contact": 2, "strain": 1, "aspirate": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ष्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" </span></li>
+    <li class="root root-disabled col-xs-1" data-root="R^i" data-root-alt="RRi" data-sound-properties='{"type": 2, "contact": 3}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ऋ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="R^I" data-root-alt="RRI" data-sound-properties='{"type": 2, "contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ऋ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+  </ul>
+  <ul class="dentals list-unstyled" data-sound-type="dental">
+    <li class="root root-disabled col-xs-1" data-root="t" data-sound-properties='{"type": 3, "strain": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">त्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="th" data-sound-properties='{"type": 3, "strain": 1, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">थ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="d" data-sound-properties='{"type": 3}' data-toggle="popover" data-trigger="hover"
+      data-placement="auto">द्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="dh" data-sound-properties='{"type": 3 "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ध्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="n" data-sound-properties='{"type": 3, "nasal": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">न्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="l" data-sound-properties='{"type": 3, "contact": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ल्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="s" data-sound-properties='{"type": 3, "contact": 2, "strain": 1, "aspirate": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">स्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" </span></li>
+    <li class="root root-disabled col-xs-1" data-root="L^i" data-root-alt="LLi" data-sound-properties='{"type": 3, "contact": 3}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ऌ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="L^I" data-root-alt="LLI" data-sound-properties='{"type": 3, "contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ॡ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+    <li class="root root-disabled col-xs-1"></li>
+  </ul>
+  <ul class="labials list-unstyled" data-sound-type="labial">
+    <li class="root root-disabled col-xs-1" data-root="p" data-sound-properties='{"type": 4, "strain": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">प्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="ph" data-sound-properties='{"type": 4, "strain": 1, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">फ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="b" data-sound-properties='{"type": 4}' data-toggle="popover" data-trigger="hover"
+      data-placement="auto">ब्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="bh" data-sound-properties='{"type": 4, "aspirate": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">भ्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="m" data-sound-properties='{"type": 4, "nasal": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">म्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="v" data-root-alt="w" data-sound-properties='{"type": 7, "contact": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">व्<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" </span></li>
+    <li class="root root-disabled col-xs-1" </span></li>
+    <li class="root root-disabled col-xs-1" data-root="u" data-sound-properties='{"type": 4, "contact": 3}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">उ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="U" data-root-alt="uu" data-sound-properties='{"type": 4, "contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">ऊ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="o" data-sound-properties='{"type": 6, "contact": 3}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">ओ <span class="
+            distance"></span><span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="au" data-sound-properties='{"type": 6, "contact": 3, "quantity": 1}' data-toggle="popover"
+      data-trigger="hover" data-placement="auto">औ<span class="count badge"></span></li>
+    <li class="root root-disabled col-xs-1" data-root="M" data-root-alt=".m" data-root-alt1=".n" data-sound-properties='{"type": 6, "contact": 3, "quantity": 1}'
+      data-toggle="popover" data-trigger="hover" data-placement="auto">अं<span class="count badge"></span></li>
+  </ul>
+</div>
+</div>
+</div>
+
+<!-- <div class="row search-component">
+      <div class="col-lg-12">
+        <div class="input-group input-group-lg" style="margin-top: 60px;margin-bottom: 60px">
+          <span class="input-group-addon" id="sizing-addon1">√</span>
+          <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon1">
+        </div>
+      </div>
+    </div> -->
+
+<p class="lead" style="margin-top: 40px"> Current sequence:
+<span class="js-sequence" style="display:none"> “
+<strong class="js-seq-dvng"></strong>” <small class="js-seq-itrans text-muted"></small>
+</span>
+</p>
+
+<div class="row details-component" style="margin-top: 40px">
+<div class="col-lg-6">
+  <div class="details" role="tabpanel">
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a href="#list" aria-controls="list" role="tab" data-toggle="tab">Possible roots <span class="badge list-badge"></span></a></li>
+      <li role="presentation"><a href="#roots" aria-controls="roots" role="tab" data-toggle="tab">Formed roots <span class="badge roots-badge"></span></a></li>
+    </ul>
+    <div class="tab-content" style="min-height: 150px">
+<div role="tabpanel" class="tab-pane active" id="list"></div>
+<div role="tabpanel" class="tab-pane" id="roots"></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+  <div class="js-root"></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/application.js"></script>
+</body>
+
+</html>

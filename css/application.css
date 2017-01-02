@@ -1,0 +1,77 @@
+.root-disabled {
+  color: lightgrey;
+  background-color: #F5F5F5 !important;
+  cursor: default !important;
+}
+
+.root {
+  background-color: #F5F5F5;
+  width: 83px;
+  height: 83px;
+  margin: 2px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.root-hover {
+  -moz-box-shadow: 0 0 5px darkgrey;
+  -webkit-box-shadow: 0 0 5px darkgrey;
+  box-shadow: 0px 0px 5px darkgrey;
+}
+
+
+.info-panel {
+  margin-top: 40px;
+}
+
+.count {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: small;
+}
+
+.distance {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  font-size: smaller;
+}
+
+.list-group-item-heading small::before,
+.js-seq-itrans::before {
+  content: '(';
+}
+
+.list-group-item-heading small::after,
+.js-seq-itrans::after {
+  content: ')';
+}
+
+.root[data-distance="0"] {
+  background-color: beige;
+}
+
+.root[data-distance="1"] {
+  background-color: aliceblue;
+}
+
+.root[data-distance="2"] {
+  background-color: antiquewhite;
+}
+
+.root[data-distance="3"] {
+  background-color: lavenderblush;
+}
+
+.root[data-distance="4"] {
+  background-color: floralwhite;
+}
+
+.root[data-distance="5"] {
+  background-color: ghostwhite;
+}
+
+.root[data-distance="6"] {
+  background-color: lavender;
+}

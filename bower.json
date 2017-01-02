@@ -1,0 +1,29 @@
+{
+  "name": "dhaatus",
+  "version": "0.0.0",
+  "authors": [
+    "Prashant Tiwari <prashaantt@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Sanskrit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "defiant": "hbi99/defiant.js",
+    "flight": "~1.5.0",
+    "hogan": "~3.0.2",
+    "requirejs": "~2.1.18",
+    "sanscript": "sanskrit/sanscript.js"
+  }
+}
